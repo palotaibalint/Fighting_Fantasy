@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class GameEngine {
@@ -75,9 +74,6 @@ public class GameEngine {
         else if(foe_strength>player_strength){
             player.setStamina(p_stamina-2);
             System.out.println("Foe hit You,causing 2 damage: H:"+p_stamina+" -> H:"+player.getStamina());
-        }
-        else{
-
         }
     }
 
